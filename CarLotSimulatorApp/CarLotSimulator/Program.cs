@@ -66,9 +66,12 @@ namespace CarLotSimulator
             car3.MakeEngineNoise();
             car3.MakeHonkNoise();
             Console.WriteLine();
+
+            Console.WriteLine("Cars available on the lot: ");
+
             foreach (var car in carLot.ListOfCars)
             {
-                Console.WriteLine($"The car is a {car.Year} { car.Make} { car.Model}.");
+                Console.WriteLine($"We have a {car.Year} { car.Make} { car.Model} for sale.");
             }
              
                       

@@ -8,6 +8,7 @@ namespace CarLotSimulator
     public class Car_Lot
     {
         public List<Car> ListOfCars = new List<Car>();
+        public List<Car> Price { get; set; }
 
 
 
